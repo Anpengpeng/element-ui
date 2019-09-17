@@ -1,0 +1,26 @@
+{
+    "name": "yxk/hello",
+    "description": "hello world",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dingman",
+            "email": "anpengpeng163@163.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "Yxk\\Hello\\": "packages/yxk/hello/src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Yxk\\Hello\\": "packages/yxk/hello/test/"
+        }
+    }
+}
