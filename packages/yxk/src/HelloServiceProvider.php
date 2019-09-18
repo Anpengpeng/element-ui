@@ -27,6 +27,6 @@ class HelloServiceProvider extends ServiceProvider
     public function boot()
     {
 //        $this->mergeConfigFrom(__DIR__.'/../../../config/config.php', 'hello');
-        $this->publishes([__DIR__.'/hellocon.php' => config_path('hello.php')]);
+        $this->publishes([ __DIR__ . '/hellocon.php' => config_path('hello.php')]);
     }
 }

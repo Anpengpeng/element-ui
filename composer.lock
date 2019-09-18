@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f17dfeaf0cdf8b3b080f2f5cc726e670",
+    "content-hash": "b9d25425f4e5f6c9f60c6c66bfae3cda",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -4169,6 +4169,45 @@
             "time": "2019-09-10T21:37:39+00:00"
         },
         {
+            "name": "yxk/hello",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Anpengpeng/yxk.git",
+                "reference": "8d6a0588c9412dee1da3956986b4c169e7060079"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Anpengpeng/yxk/zipball/8d6a0588c9412dee1da3956986b4c169e7060079",
+                "reference": "8d6a0588c9412dee1da3956986b4c169e7060079",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Yxk\\Hello\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "dingman",
+                    "email": "anpengpeng163@163.com"
+                }
+            ],
+            "description": "hello world",
+            "time": "2019-09-18T10:04:47+00:00"
+        },
+        {
             "name": "zendframework/zend-diactoros",
             "version": "2.1.3",
             "source": {
@@ -7136,7 +7175,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "yxk/hello": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

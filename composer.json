@@ -37,7 +37,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Yxk\\Hello\\": "packages/yxk/hello/src/"
+            "Yxk\\Hello\\": "packages/yxk/src/"
         },
         "classmap": [
             "database/seeds",
