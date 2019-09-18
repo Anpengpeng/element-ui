@@ -15,5 +15,12 @@
         "psr-4": {
             "Yxk\\Hello\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Yxk\\Hello\\HelloServiceProvider"
+            ]
+        }
     }
 }
