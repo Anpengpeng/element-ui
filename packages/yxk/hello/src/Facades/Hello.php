@@ -7,6 +7,6 @@ class Hello extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return 'helloservice';
+        return 'hello';
     }
 }
