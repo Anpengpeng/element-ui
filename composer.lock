@@ -4097,8 +4097,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "role": "Developer",
-                    "email": "css_to_inline_styles@verkoyen.eu"
+                    "email": "css_to_inline_styles@verkoyen.eu",
+                    "role": "Developer"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
@@ -4174,12 +4174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Anpengpeng/yxk.git",
-                "reference": "8d6a0588c9412dee1da3956986b4c169e7060079"
+                "reference": "4a0b319611bde6a2508069b432528c9dbab2a511"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Anpengpeng/yxk/zipball/8d6a0588c9412dee1da3956986b4c169e7060079",
-                "reference": "8d6a0588c9412dee1da3956986b4c169e7060079",
+                "url": "https://api.github.com/repos/Anpengpeng/yxk/zipball/4a0b319611bde6a2508069b432528c9dbab2a511",
+                "reference": "4a0b319611bde6a2508069b432528c9dbab2a511",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4189,6 +4189,16 @@
                 ]
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Yxk\\Hello\\HelloServiceProvider"
+                    ],
+                    "aliases": {
+                        "Hello": "Yxk\\Hello\\Hello"
+                    }
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Yxk\\Hello\\": "src/"
@@ -4205,7 +4215,7 @@
                 }
             ],
             "description": "hello world",
-            "time": "2019-09-18T10:04:47+00:00"
+            "time": "2019-09-19T06:20:20+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -5107,8 +5117,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "role": "Developer",
-                    "homepage": "https://github.com/filp"
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -5544,18 +5554,18 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Heuer",
-                    "role": "Developer",
-                    "email": "sebastian@phpeople.de"
+                    "email": "sebastian@phpeople.de",
+                    "role": "Developer"
                 },
                 {
                     "name": "Sebastian Bergmann",
-                    "role": "Developer",
-                    "email": "sebastian@phpunit.de"
+                    "email": "sebastian@phpunit.de",
+                    "role": "Developer"
                 }
             ],
             "description": "Component for reading phar.io manifest information from a PHP Archive (PHAR)",
@@ -7109,8 +7119,8 @@
             "authors": [
                 {
                     "name": "Arne Blankerts",
-                    "role": "Developer",
-                    "email": "arne@blankerts.de"
+                    "email": "arne@blankerts.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
